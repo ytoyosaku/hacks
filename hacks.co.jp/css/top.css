@@ -1,0 +1,181 @@
+/* hacks_top.css */
+
+.top_image {
+  width: 100%;
+  height: 400px;
+}
+
+.news {
+  width: 100%;
+  height: 200px;
+  background-color: #eee;
+}
+
+ h2.news_top,
+ .headline {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 25px;
+}
+
+.news ul {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.news span {
+  margin-right: 10px;
+}
+
+.news li {
+  margin-bottom: 5px;
+}
+
+
+.service {
+  width: 100%;
+  height: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.partner {
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.company {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+}
+
+.service ul {
+  width: 900px;
+  height: 230px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.service li:nth-child(1) {
+  float: left;
+  width: 249px;
+  margin-right: 70px;
+  text-align: center;
+  padding: 100px 0;
+  border: 2px dotted #00aaaa;
+  border-radius: 100px;
+}
+.service li:nth-child(2) {
+  float: left;
+  width: 249px;
+  margin-right: 70px;
+  text-align: center;
+  padding: 88px 0;
+  border: 2px dotted #00aaaa;
+  border-radius: 100px;
+}
+
+.service li:nth-child(3) {
+  float: left;
+  width: 249px;
+  text-align: center;
+  padding: 100px 0;
+  border: 2px dotted #00aaaa;
+  border-radius: 100px;
+}
+
+.service li>p {
+  font-size: 16px;
+  font-weight: bold;
+  color: #00aaaa;
+}
+
+.more_service,
+.more_partner {
+  width: 350px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.more_service a{
+  display: block;
+  width : 100%;
+  padding: 30px 0;
+  font-size: 18px;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: #00aaaa;
+  box-shadow: 0px 0px 20px inset;
+}
+
+.more_service a:hover {
+  background: #00aaaa;
+  opacity: 0.8;
+}
+
+.more_partner a {
+  display: block;
+  width : 100%;
+  padding: 30px 0;
+  font-size: 18px;
+  color: white;
+  line-height: 1;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 8px;
+  background: #FFA400;
+  box-shadow: 0px 0px 20px inset;
+}
+
+.more_partner a:hover {
+  background: #FFA400;
+  opacity: 0.8;
+}
+
+.company p,
+.partner p,
+.service>p  {
+  text-align: center;
+  line-height: 1.9;
+  margin-bottom: 40px;
+}
+
+.company table {
+  margin: 0 auto;
+  width: 900px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.company tr {
+  border-bottom: 1px solid black;  
+}
+
+.company th {
+  width: 20%;
+  text-align: center;
+  padding: 20px 20px;
+  border-right: 1px solid black;
+  font-weight: bold;
+  background: #eee;
+}
+
+.company td {
+  width: 80%;
+  padding: 2px 0 0 20px;
+  font-size: 14px;
+}
+
+.map {
+  width: 900px;
+  margin: 0 auto;
+  padding: 40px 0px;
+
+}

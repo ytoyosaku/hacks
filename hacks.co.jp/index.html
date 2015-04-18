@@ -1,0 +1,152 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<title>株式会社hacks</title>
+	<meta name="discription" content="株式会社hacksのコーポレートサイトです。株式会社hacksのページです。">
+	<meta name="keywords" content="hacks,株式会社hacks,ハックス">
+	<link rel="stylesheet" href="http://yui.yahooapis.com/3.17.2/build/cssreset/cssreset-min.css">
+	<link rel="stylesheet" href="css/top.css">
+	<link rel="stylesheet" href="css/common.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/scrolltopcontrol.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+</head>
+<body>
+	<div id="header">
+		<div class="info">
+			<h1 class="logo">
+				<a href="">hacks</a>
+			</h1>
+			<div class="menu">
+				<ul>
+					<li class="btn">
+						<a href="">ニュース</a>
+					</li>
+					<li class="btn">
+						<a href="">サービス</a>
+					</li>
+					<li class="btn">
+						<a href="">会社概要</a>
+					</li>
+					<li class="btn">
+						<a href="">パートナー様</a>
+					</li>
+					<li>
+						<a href="http://hacks.co.jp/contact/">お問い合わせ</a>
+					</li>
+				</ul>
+			</div>
+		</div><!-- info -->
+	</div><!-- header -->
+	<div id="main">
+		<div class="top_image">
+			<img src="image/sky.jpg" alt="top_image" width="100%" height="400px">
+		</div>
+		<div class="news">
+			<h2 class="headline">NEWS</h2>
+			<ul>
+				<li>
+					<span>2014/10/20</span>
+					<a href="">コーポレートサイトをオープンしました</a>
+				</li>
+				<li>
+					<span>2014/10/20</span>
+					<a href="">株式会社hacksを設立致しました</a>
+				</li>
+			</ul>
+		</div>
+		<div class="service">
+			<h2 class="headline">サービス</h2>
+			<p>
+				主に3つのサービスを軸に事業を展開しており、
+				<br>
+				クライアント様向け、フリーランス様向けのサービス / ソリューションを提供しております。
+			</p>
+			 <ul>
+			 	<li>
+					<p>メディア制作 / アプリ開発</p>
+				</li>
+				<li>
+					<p>SES事業<br>
+					フリーランスネットワーク事業</p>
+				</li>
+				<li>
+					<p>プログラミング教育事業</p>
+				</li>
+			</ul>
+			<div class="more_service">
+				<a href="http://hacks.co.jp/contact/">各種お問い合わせはこちらから</a>
+			</div>
+		</div>
+		<div class="company">
+			<h2 class="headline">会社概要</h2>
+			<table>
+				<tr>
+					<th>会社名</th>
+					<td>株式会社hacks</td>
+				</tr>
+				<tr>
+					<th>設立日</th>
+					<td>2014年10月20日</td>
+				</tr>
+				<tr>
+					<th>主取引銀行</th>
+					<td>みずほ銀行　九段支店</td>
+				</tr>
+				<tr>
+					<th>問い合わせ先</th>
+					<td>info@hacks.co.jp</td>
+				</tr>
+				<tr>
+					<th>本社</th>
+					<td>
+						〒101-0064
+						<br>
+						東京都千代田区猿楽町2-3-5　ブライズ神保町803号室
+					</td>
+				</tr>
+				<tr>
+					<th>事業内容</th>
+					<td>
+						WEBメディア制作 / アプリ開発
+						<br>
+						フリーランスネットワーク事業
+						<br>
+						SES事業
+						<br>
+						プログラミング教育事業
+					</td>
+				</tr>
+			</table>
+			<div class="map">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.0951040807545!2d139.75812249999998!3d35.699277200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c167b4b8edf%3A0x6a97cd60c428ca8!2z5p2x5Lqs6YO95Y2D5Luj55Sw5Yy654y_5qW955S677yS5LiB55uu77yT4oiS77yV!5e0!3m2!1sja!2sjp!4v1413792049360" width="900" height="400" frameborder="0" style="border:0">
+				</iframe>
+			</div>
+		</div>
+		<div class="partner">
+			<h2 class="headline">パートナー募集</h2>
+			<p>
+				パートナー様、フリーランスの方を随時募集しております！<br>
+				お気軽にお問い合わせください。
+			</p>
+			<div class="more_partner">
+				<a href="/contact/">お問い合わせはこちらから</a>
+			</div>
+		</div>
+	</div><!-- main -->
+	<div id="footer">
+		<p>Copyright(C) hacks Co.,Ltd All Rights Reserved.</p>
+	</div><!-- footer -->
+	<script>
+		$(function() {
+			$(".btn").click(function () {
+				var i = $(".btn").index(this)
+				var p = $(".headline").eq(i).offset().top;
+				$('html,body').animate({ scrollTop: p }, 'slow');
+				return false;
+		    });
+		});
+	</script>
+</body>
+</html>
